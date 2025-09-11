@@ -1,0 +1,212 @@
+# Quartus Prime project .gitignore
+# For Intel/Altera FPGA projects using Quartus Prime
+
+# =============================================================================
+# Quartus Prime Generated Files
+# =============================================================================
+
+# Compilation Database
+db/
+incremental_db/
+
+# Output Files
+output_files/
+*.sof
+*.pof
+*.rbf
+*.rpt
+*.summary
+*.done
+*.jdi
+*.pin
+*.qws
+
+# Assembly Files
+*.asm.rpt
+*.eda.rpt
+*.fit.rpt
+*.fit.smsg
+*.fit.summary
+*.fmax_summary.rpt
+*.sta.rpt
+*.sta.summary
+*.tan.rpt
+*.tan.summary
+*.map.rpt
+*.map.smsg
+*.map.summary
+
+# Simulation Files
+simulation/
+*_sim/
+*.vcd
+*.wlf
+*.vstf
+
+# Timing Analysis
+*.sdo
+*.tao
+
+# Power Analysis
+*.pow.rpt
+*.pow.summary
+
+# Pin Assignment
+*.qdf
+*.csv
+
+# =============================================================================
+# Platform Studio Generated Files (Qsys)
+# =============================================================================
+
+# Qsys generated files (keep .qsys but ignore generated content)
+*_generation_script*
+*.sopcinfo
+*.cmp
+*.html
+*.svd
+*.bsf
+*.ppf
+
+# Generated HDL from Qsys
+# Note: Be careful here - some projects may need these files
+# Uncomment the lines below if you want to ignore generated HDL
+# But generally, it's safer to keep them in version control
+# *.v (from Qsys generation)
+# *_bb.v
+# *_inst.v
+# *_inst.vhd
+
+# =============================================================================
+# ModelSim/QuestaSim Simulation Files
+# =============================================================================
+work/
+*.mpf
+*.mti
+*.qtl
+*.wlf
+transcript
+vsim.wlf
+wlf*
+
+# =============================================================================
+# Temporary and Cache Files
+# =============================================================================
+
+# Quartus settings and cache
+*.qws
+*.bak
+*.orig
+*.qtl
+
+# Assignment files backup
+*.qdf.bak
+*.qsf.bak
+
+# Lock files
+*.lock
+
+# =============================================================================
+# IDE and Editor Files
+# =============================================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Vim
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# =============================================================================
+# Operating System Files
+# =============================================================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# =============================================================================
+# Archive and Backup Files
+# =============================================================================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.backup
+
+# =============================================================================
+# Log Files
+# =============================================================================
+*.log
+*.qmsg
+
+# =============================================================================
+# Project Specific Exclusions
+# =============================================================================
+
+# Quartus Prime project restore files
+*.qar
+
+# SignalTap files
+*.stp
+
+# In-System Memory Content Editor files
+*.hex
+*.mif
+
+# JTAG Debug files
+*.jdi
+
+# =============================================================================
+# Notes for this specific project
+# =============================================================================
+
+# Keep these important files in version control:
+# - *.qpf (Quartus Project File)
+# - *.qsf (Quartus Settings File) 
+# - *.sv, *.v, *.vhd (Source HDL files)
+# - *.qsys (Qsys system files)
+# - *.tcl (TCL scripts like form.tcl)
+# - *.sdc (Timing constraints)
+# - *.txt (Documentation and pin assignments)
+
+# The following are typically version controlled for this project:
+# !top.sv
+# !connect.sv  
+# !vJtag.qsys
+# !form.tcl
+# !*.qpf
+# !*.qsf
+# !c5_pin_model_dump.txt
