@@ -133,8 +133,10 @@ Este proyecto sirve como una introducción práctica a:
 - Manual de Referencia del Lenguaje SystemVerilog IEEE 1800-2017
 - Virtual JTAG Intel® FPGA IP Core User Guide
 
-## Solución de Problemas
-
+## Créditos
+ - INTEL
+ - https://github.com/xharrym/tk_jtag/blob/master/connect.v
+ 
 
 ## Licencia
 
