@@ -34,10 +34,9 @@ El sistema implementa un registro de instrucciones de 2 bits que soporta las sig
 ## Requisitos de Hardware
 
 - Tarjeta de desarrollo FPGA Intel/Altera (Cyclone V o compatible)
-- 4 switches DIP conectados a los pines SW[3:0]
-- 8 LEDs conectados a los pines LEDR[7:0]
-- Entrada de reloj del sistema de 50MHz
-- Cable de programación JTAG USB Blaster o compatible
+- 4 switches DIP conectados a los pines SW[3:0] (pueden ser los de la placa)
+- 8 LEDs conectados a los pines LEDR[7:0] (pueden ser los de la placa)
+- Cable de programación JTAG USB Blaster o simplemente el USB de la FPGA
 
 ## Requisitos de Software
 
@@ -110,13 +109,6 @@ Si la interfaz JTAG no es detectada:
 - Confirmar que la compilación del núcleo IP VJTAG sea sin errores
 - Validar que las asignaciones de pines coincidan con el hardware físico
 
-## Características de Rendimiento
-
-- Frecuencia de reloj JTAG: Limitada por USB Blaster (típicamente máximo 6 MHz)
-- Tasa de transferencia de datos: Aproximadamente 8 bits por transacción JTAG
-- Latencia: 2-3 ciclos de reloj JTAG para actualizaciones de registro
-- Utilización de recursos: Mínima (< 100 elementos lógicos)
-
 ## Aplicaciones Educativas
 
 Este proyecto sirve como una introducción práctica a:
@@ -136,7 +128,7 @@ Este proyecto sirve como una introducción práctica a:
 ## Créditos
  - INTEL
  - https://github.com/xharrym/tk_jtag/blob/master/connect.v
- 
+
 
 ## Licencia
 
