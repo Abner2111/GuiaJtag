@@ -7,7 +7,7 @@ Este proyecto implementa una interfaz Virtual JTAG para FPGAs Intel/Altera utili
 ## Autor
 
 Abner Arroyo  
-Estudiante de Ingeniería en Computación  
+Estudiante de Ingeniería en Computadores
 2025
 
 ## Descripción Técnica
