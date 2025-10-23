@@ -132,4 +132,4 @@ Este proyecto sirve como una introducción práctica a:
 
 ## Licencia
 
-Este proyecto está desarrollado con fines educativos como parte del curso de ingeniería en computación. El código se proporciona tal como está para uso académico y aplicaciones de aprendizaje.
+Este proyecto está desarrollado con fines educativos como parte del curso de ingeniería en computadores. El código se proporciona tal como está para uso académico y aplicaciones de aprendizaje.
