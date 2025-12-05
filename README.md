@@ -10,6 +10,9 @@ Abner Arroyo
 Estudiante de Ingeniería en Computadores
 2025
 
+## Guia en PDF
+Guía Virtual JTAG
+
 ## Descripción Técnica
 
 El proyecto demuestra la implementación de un núcleo IP Virtual JTAG (VJTAG) integrado con módulos SystemVerilog personalizados para crear una interfaz de depuración de hardware. El sistema utiliza el protocolo estándar IEEE 1149.1 JTAG para establecer comunicación entre software ejecutándose en una computadora host y lógica digital implementada en la FPGA.
